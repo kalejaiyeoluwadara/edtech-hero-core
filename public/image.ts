@@ -1,9 +1,7 @@
 // logos
-import logo from "./images/tmslogo.png";
-import footerLogo from "./images/mobile.png";
+import students from "./images/students.png";
 
 // homepage images
 export default {
-  logo,
-  footerLogo,
+  students,
 };
