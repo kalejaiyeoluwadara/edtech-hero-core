@@ -2,7 +2,10 @@ import React from 'react'
 
 function HeroPage() {
   return (
-    <div>HeroPage</div>
+      <main>
+          <div></div>
+          <div></div>
+      </main>
   )
 }
 

@@ -64,6 +64,20 @@ export const Icons = {
       </svg>
         );
     },
+    Star1: () => {
+        return (
+            <svg width="35" height="118" viewBox="0 0 35 118" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="17.6844" cy="58.683" rx="6.33449" ry="60.8111" transform="rotate(15.2742 17.6844 58.683)" fill="url(#paint0_radial_4017_328)" />
+                <defs>
+                    <radialGradient id="paint0_radial_4017_328" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(17.6844 58.683) rotate(90) scale(60.8111 6.33449)">
+                        <stop offset="0.0364583" stop-color="#FFF1E4" />
+                        <stop offset="1" stop-color="#3A71FF" stop-opacity="0" />
+                    </radialGradient>
+                </defs>
+            </svg>
+
+        );
+    },
     Logo: () => {
         return (
             <svg width="53" height="14" viewBox="0 0 53 14" fill="none" xmlns="http://www.w3.org/2000/svg">

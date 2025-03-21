@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${bricolageGrotesque.variable} antialiased`}
+        className={`px-4 sm:px-14 ${geistSans.variable} ${geistMono.variable} ${bricolageGrotesque.variable} antialiased`}
         style={{ fontFamily: 'var(--font-bricolage-grotesque), Helvetica, Arial, sans-serif' }}
       >
         <Nav />
