@@ -10,7 +10,7 @@ const ImageSection = () => {
             {/* Card Container - Make this relative instead of absolute */}
             <div className="relative w-full h-full flex justify-center md:justify-end">
                 {/* Stack of Cards - Positioned relative to container */}
-                <div className="relative mt-12 h-[438px] w-[408px]">
+                <div className="relative mt-12 h-[438px] w-[250px] md:w-[408px]">
                     {/* Bottom Card */}
                     <motion.div
                         initial={{ rotate: -12, y: 20, opacity: 0 }}

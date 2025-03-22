@@ -1,7 +1,10 @@
 @import "tailwindcss";
 
+html{
+  @apply overflow-x-hidden
+}
 body{
-  @apply bg-[#0A0809]
+  @apply bg-[#0A0809] overflow-x-hidden
 }
 .avatar{
   @apply h-[30px] w-[30px] rounded-full absolute  

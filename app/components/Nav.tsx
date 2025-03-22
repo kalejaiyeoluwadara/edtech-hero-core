@@ -36,7 +36,7 @@ function Nav() {
       </div>
 
       {/* Mobile Menu Toggle */}
-      <div className='md:hidden'>
+      <div className='md:hidden relative z-[100]'>
         <button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
