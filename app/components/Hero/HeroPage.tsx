@@ -4,7 +4,7 @@ import ImageSection from './ImageSection'
 
 function HeroPage() {
   return (
-      <main className='grid grid-cols-2 items-start w-full min-h-[100vh] pt-12 overflow-hidden   gap-3'>
+    <main className='grid  grid-cols-2 items-start w-full min-h-[100vh] pt-12 overflow-hidden   gap-3'>
           <TextSection />
           <ImageSection />
       </main>
