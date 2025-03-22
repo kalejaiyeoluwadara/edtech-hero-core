@@ -6,7 +6,7 @@ import image from "@/public/image";
 
 const ImageSection = () => {
     return (
-        <div className="relative  flex items-center justify-center p-6">
+        <div className="relative  flex items-end justify-center p-6">
             {/* Bottom Card */}
             <div className="pr-20">
                 <motion.div
