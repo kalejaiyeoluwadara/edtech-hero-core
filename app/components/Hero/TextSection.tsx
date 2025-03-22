@@ -16,12 +16,12 @@ function TextSection() {
         <button className='bg-[#FBFF48]'>Enroll Now</button>
         <button className=' border border-[#5C5C5A] text-white '>Learn More</button>
       </div>
-      <div className='mt-12 w-full relative'>
-        <button className='relative bg-[#231d20e5] px-4 py-2'>
-          <span className='absolute inset-0 border-l-4 border-b-4 border-black'></span>
-          <span className='absolute inset-1 border-l-4 border-b-4 border-[#FBFF48]'></span>
-          <span className='relative text-white flex items-center justify-center'>Win $500 in scholarships</span>
-        </button>
+      <div className='mt-12 flex justify-end md:pr-20 w-full'>
+        <div className='relative  flex items-center text-white justify-center w-[300px] px-8 text-center rounded-none bg-[#231d20e5] py-3'>
+          <span className='absolute  inset-0 border-r-8 border-b-4 border-black'></span>
+          <span className='absolute inset-0 border-r-2 border-b-4 border-[#FBFF48]'></span>
+          <span className=' text-center w-full block py-2'>Win $500 in scholarships</span>
+        </div>
       </div>
     </div>
   )
