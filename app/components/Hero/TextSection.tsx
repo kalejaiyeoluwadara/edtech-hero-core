@@ -16,8 +16,9 @@ function TextSection() {
         <button className='bg-[#FBFF48]'>Enroll Now</button>
         <button className=' border border-[#5C5C5A] text-white '>Learn More</button>
       </div>
-      <div className='mt-12 flex justify-end md:pr-20 w-full'>
-        <div className='relative  flex items-center text-white justify-center w-[300px] px-8 text-center rounded-none bg-[#231d20e5] py-3'>
+      <div className='mt-20 relative flex justify-end md:pr-20 w-full'>
+        <span className='absolute -top-12 left-34'><Icons.Arrow /></span>
+        <div className='relative  flex items-center text-white justify-center w-[230px] px-2 text-center rounded-none bg-[#231d20e5] py-3'>
           <span className='absolute  inset-0 border-r-8 border-b-4 border-black'></span>
           <span className='absolute inset-0 border-r-2 border-b-4 border-[#FBFF48]'></span>
           <span className=' text-center w-full block py-2'>Win $500 in scholarships</span>
