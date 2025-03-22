@@ -4,7 +4,10 @@ body{
   @apply bg-[#0A0809]
 }
 .avatar{
-  @apply h-[30px] w-[30px] rounded-full bg-blue-200 absolute  
+  @apply h-[30px] w-[30px] rounded-full absolute  
+}
+.logo{
+  @apply h-[50px] w-[50px] rounded-full absolute  
 }
 button{
   @apply cursor-pointer rounded-md px-3 font-medium py-3
