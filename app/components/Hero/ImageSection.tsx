@@ -6,7 +6,7 @@ import image from "@/public/image";
 
 const ImageSection = () => {
     return (
-        <div className="relative h-[500px] w-full">
+        <div className="relative md:mt-0 mt-20 h-[500px] w-full">
             {/* Card Container - Make this relative instead of absolute */}
             <div className="relative w-full h-full flex justify-center md:justify-end">
                 {/* Stack of Cards - Positioned relative to container */}
