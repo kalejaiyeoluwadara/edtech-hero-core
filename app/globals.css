@@ -6,3 +6,6 @@ body{
 .avatar{
   @apply h-[30px] w-[30px] rounded-full bg-blue-200 absolute  
 }
+button{
+  @apply cursor-pointer rounded-md px-3 font-medium py-3
+}
