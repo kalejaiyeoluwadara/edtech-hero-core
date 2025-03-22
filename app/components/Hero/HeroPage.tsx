@@ -2,10 +2,15 @@ import React from 'react'
 import TextSection from './TextSection'
 import ImageSection from './ImageSection'
 import LogoSection from './LogoSection'
+import { Icons } from '../ui/icons'
 
 function HeroPage() {
   return (
-    <main className='min-h-[100vh]'>
+    <main className='min-h-[100vh] relative'>
+      <span className='absolute inset-0 -z-10 '><Icons.BgCircle /></span>
+      <span className='absolute top-[-80px] left-[200px] '><Icons.Star1 /></span>
+      <span className='absolute top-[-100px] right-[10px] '><Icons.Star1 /></span>
+      <span className='absolute bottom-[40px] left-[500px] '><Icons.Star1 /></span>
       <main className='grid sm:grid-cols-2 w-full h-full '>
         <TextSection />
         <ImageSection />

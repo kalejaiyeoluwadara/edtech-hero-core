@@ -66,15 +66,37 @@ export const Icons = {
     },
     Star1: () => {
         return (
-            <svg width="35" height="118" viewBox="0 0 35 118" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <ellipse cx="17.6844" cy="58.683" rx="6.33449" ry="60.8111" transform="rotate(15.2742 17.6844 58.683)" fill="url(#paint0_radial_4017_328)" />
-                <defs>
-                    <radialGradient id="paint0_radial_4017_328" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(17.6844 58.683) rotate(90) scale(60.8111 6.33449)">
-                        <stop offset="0.0364583" stop-color="#FFF1E4" />
-                        <stop offset="1" stop-color="#3A71FF" stop-opacity="0" />
-                    </radialGradient>
-                </defs>
-            </svg>
+          <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g style={{ mixBlendMode: "color-dodge" }}>
+              <rect width="12.669" height="121.622" transform="translate(135.016 84.5922) rotate(105.274)" fill="black" />
+              <ellipse cx="74.6838" cy="74.6829" rx="6.3345" ry="60.8111" transform="rotate(105.274 74.6838 74.6829)" fill="url(#paint0_radial_713_507)" />
+            </g>
+            <g style={{ mixBlendMode: "color-dodge" }}>
+              <rect width="12.669" height="121.622" transform="translate(84.5938 14.3511) rotate(15.2742)" fill="black" />
+              <ellipse cx="74.6844" cy="74.6829" rx="6.33449" ry="60.8111" transform="rotate(15.2742 74.6844 74.6829)" fill="url(#paint1_radial_713_507)" />
+            </g>
+            <defs>
+              <radialGradient id="paint0_radial_713_507" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(74.6838 74.6829) rotate(90) scale(60.8111 6.33449)">
+                <stop offset="0.0364583" stop-color="#FFF1E4" />
+                <stop offset="1" stop-color="#3A71FF" stop-opacity="0" />
+              </radialGradient>
+              <radialGradient id="paint1_radial_713_507" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(74.6844 74.6829) rotate(90) scale(60.8111 6.33449)">
+                <stop offset="0.0364583" stop-color="#FFF1E4" />
+                <stop offset="1" stop-color="#3A71FF" stop-opacity="0" />
+              </radialGradient>
+            </defs>
+          </svg>
+
+    );
+  },
+  BgCircle: () => {
+    return (
+      <svg width="972" height="532" viewBox="0 0 972 832" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M399.694 1120.76C84.6448 1192.01 -233.985 970.84 -311.85 626.541C-389.716 282.241 -197.263 -54.5115 117.786 -125.762C432.835 -197.012 751.465 24.1562 829.33 368.456C907.195 712.756 714.743 1049.51 399.694 1120.76Z" stroke="#100E0F" stroke-width="2" />
+        <path d="M338.739 1041.96C68.4023 1103.1 -205.028 913.319 -271.85 617.852C-338.672 322.384 -173.513 33.4154 96.8243 -27.7229C367.161 -88.8612 640.592 100.918 707.414 396.385C774.235 691.853 609.076 980.821 338.739 1041.96Z" stroke="#100E0F" stroke-width="2" />
+        <path d="M267.33 964.501C41.7049 1015.53 -186.527 857.137 -242.305 610.502C-298.083 363.866 -160.217 122.681 65.4076 71.655C291.033 20.6285 519.264 179.019 575.042 425.654C630.82 672.289 492.955 913.474 267.33 964.501Z" stroke="#100E0F" stroke-width="2" />
+      </svg>
+
 
         );
     },

@@ -4,9 +4,9 @@ import React from 'react'
 
 function LogoSection() {
     return (
-        <div className='flex items-center w-full  h-[54px] '>
+        <div className='flex items-center  w-fit px-2 h-[54px] rounded-full'>
             {/* Logo stack container with proper spacing */}
-            <div className='relative flex w-[110px] h-10'>
+            <div className='relative flex w-[120px] h-10'>
                 {/* Position each image with proper z-index */}
                 <div className='absolute left-0 z-30 w-10 h-10 rounded-full overflow-hidden'>
                     <Image

@@ -20,13 +20,13 @@ function Nav() {
       </div>
 
       {/* Desktop Navigation */}
-      <div className='hidden md:flex gap-6'>
+      <div className='hidden md:flex gap-4'>
         {navItems.map((item) => (
           <button
             key={item}
             onClick={() => handleNavClick(item)}
-            className={`transition-colors cursor-pointer font-medium ${activeLink === item
-              ? 'text-white font-semibold'
+            className={`transition-colors cursor-pointer font-medium font-helvetica ${activeLink === item
+              ? 'text-white font-medium'
               : 'text-gray-400 hover:text-gray-200'
               }`}
           >
